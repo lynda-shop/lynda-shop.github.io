@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98216353-8eb2-4ad0-8d8b-c88d20a79598" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Vazir-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Vazir-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Vazir-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Vazir.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Vazir.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Vazir.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-masthead.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-age.css" afterPath="$PROJECT_DIR$/css/new-age.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,10 +23,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="226">
+              <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#h2#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -46,27 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/Extractor/startbootstrap-landing-page-gh-pages/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new-age.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/new-age.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="260" column="18" lean-forward="true" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="18" />
               <folding>
                 <element signature="e#0#248#0" expanded="false" />
+                <element signature="e#260#432#0" expanded="false" />
+                <element signature="e#444#662#0" expanded="false" />
+                <element signature="e#675#727#0" expanded="false" />
+                <element signature="e#734#771#0" expanded="false" />
                 <element signature="e#775#881#0" expanded="false" />
                 <element signature="e#901#924#0" expanded="false" />
                 <element signature="e#929#1035#0" expanded="false" />
                 <element signature="e#1046#1072#0" expanded="false" />
+                <element signature="e#1078#1120#0" expanded="false" />
+                <element signature="e#1125#1147#0" expanded="false" />
+                <element signature="e#1172#1257#0" expanded="false" />
+                <element signature="e#1261#1326#0" expanded="false" />
                 <element signature="e#1336#1359#0" expanded="false" />
                 <element signature="e#1373#1397#0" expanded="false" />
                 <element signature="e#1408#1670#0" expanded="false" />
@@ -89,6 +81,7 @@
                 <element signature="e#3414#3445#0" expanded="false" />
                 <element signature="e#3557#3586#0" expanded="false" />
                 <element signature="e#3714#3745#0" expanded="false" />
+                <element signature="e#3765#4117#0" expanded="false" />
                 <element signature="e#4152#4227#0" expanded="false" />
                 <element signature="e#4267#4293#0" expanded="false" />
                 <element signature="e#4330#4402#0" expanded="false" />
@@ -147,6 +140,7 @@
       <list>
         <option value="$PROJECT_DIR$/scss/new-age.scss" />
         <option value="$PROJECT_DIR$/scss/_masthead.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/new-age.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -311,12 +305,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513080597675</updated>
-      <workItem from="1513080604716" duration="4671000" />
+      <workItem from="1513080604716" duration="5536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4671000" />
+    <option name="totallyTimeSpent" value="5536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-631" y="-1080" width="2560" height="1080" extended-state="0" />
@@ -434,16 +428,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Documents/Extractor/startbootstrap-landing-page-gh-pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/new-age.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="260" column="18" lean-forward="true" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="18" />
           <folding>
             <element signature="e#0#248#0" expanded="false" />
+            <element signature="e#260#432#0" expanded="false" />
+            <element signature="e#444#662#0" expanded="false" />
+            <element signature="e#675#727#0" expanded="false" />
+            <element signature="e#734#771#0" expanded="false" />
             <element signature="e#775#881#0" expanded="false" />
             <element signature="e#901#924#0" expanded="false" />
             <element signature="e#929#1035#0" expanded="false" />
             <element signature="e#1046#1072#0" expanded="false" />
+            <element signature="e#1078#1120#0" expanded="false" />
+            <element signature="e#1125#1147#0" expanded="false" />
+            <element signature="e#1172#1257#0" expanded="false" />
+            <element signature="e#1261#1326#0" expanded="false" />
             <element signature="e#1336#1359#0" expanded="false" />
             <element signature="e#1373#1397#0" expanded="false" />
             <element signature="e#1408#1670#0" expanded="false" />
@@ -466,6 +489,7 @@
             <element signature="e#3414#3445#0" expanded="false" />
             <element signature="e#3557#3586#0" expanded="false" />
             <element signature="e#3714#3745#0" expanded="false" />
+            <element signature="e#3765#4117#0" expanded="false" />
             <element signature="e#4152#4227#0" expanded="false" />
             <element signature="e#4267#4293#0" expanded="false" />
             <element signature="e#4330#4402#0" expanded="false" />
@@ -502,20 +526,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Extractor/startbootstrap-landing-page-gh-pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="226">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#h2#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
