@@ -32,12 +32,15 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #003abd;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
-  transition: all .35s; }
+  transition: all .35s;
+  font-size: 0.8em;
+}
   a:hover, a:focus {
-    color: #fcbd20; }
+    color: #8f4a05;
+  }
 
 hr {
   max-width: 100px;
@@ -60,7 +63,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-weight: 200;
   letter-spacing: 1px;
@@ -300,4 +302,127 @@ button.btn {
 }
 .promise {
   color: #999;
+}
+
+
+
+#mlb2-7090650 .subscribe-form {
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid rgba(117, 58, 9, 0.24) !important;
+  border-radius: 10px !important;
+  background: rgba(255, 150, 7, 0.2) none !important;
+  box-sizing: border-box !important;
+  font-family: 'Vazir' !important;
+  direction: ltr;
+  text-align: right;
+}
+
+#mlb2-7090650 .subscribe-form .form-section p,
+#mlb2-7090650 .subscribe-form .form-section li {
+  line-height: 150%;
+  padding: 0px !important;
+  margin: 0px 0px 10px 0px;
+  color: #000000 !important;
+  font-family: 'Vazir' !important;
+  font-size: 14px !important;
+}
+
+#mlb2-7090650 .subscribe-form .form-section a {
+  font-size: 14px !important;
+}
+
+#mlb2-7090650.ml-subscribe-form .form-group .form-control {
+  width: 100%;
+  font-size: 13px;
+  padding: 10px 10px;
+  height: auto;
+  font-family: 'Vazir' !important;
+  border-radius: 0px;
+  border: 1px solid #cccccc !important;
+  color: #000000 !important;
+  background-color: #FFFFFF !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: left;
+  direction: ltr;
+  text-align: right;
+}
+
+#mlb2-7090650.ml-subscribe-form button {
+  border: none !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  border-radius: 3px !important;
+  height: 40px !important;
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+  font-family: 'Vazir' !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative!important;
+}
+
+#mlb2-7090650 .subscribe-form.horizontal {
+  padding-bottom: 0px;
+}
+
+#mlb2-7090650 .subscribe-form .form-section.horizontal {
+  float: right;
+  margin-bottom: 5px;
+  width: 70%;
+}
+
+#mlb2-7090650 .subscribe-form .form-section.horizontal .form-group {
+  float: right;
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+#mlb2-7090650 .subscribe-form .form-section.horizontal.ml-button-position {
+  width: 30%;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  #mlb2-7090650.ml-subscribe-form .subscribe-form .form-section.horizontal {
+    float: none;
+  }
+  #mlb2-7090650.ml-subscribe-form .subscribe-form .form-section.horizontal,
+  #mlb2-7090650.ml-subscribe-form .subscribe-form .form-section.horizontal.ml-button-position,
+  #mlb2-7090650.ml-subscribe-form .subscribe-form .form-section.horizontal .form-group {
+    width: 100%;
+    padding: 0;
+  }
+  #mlb2-7090650 .subscribe-form .form-section.horizontal.ml-button-position {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+.icon-social-twitter {
+  font-family: 'simple-line-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-social-twitter:before {
+  content: "\e009";
+}
+
+.item-icon {
+  width: auto;
+  height: 50px;
 }
