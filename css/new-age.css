@@ -244,21 +244,33 @@ footer {
 .btn-outline {
   color: white;
   border: 1px solid;
-  border-color: white; }
+  border-color: #2e4da6;
+  background-color: #2e4da6;
+}
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
-    border-color: #fdcc52;
-    background-color: #fdcc52; }
+    border-color: #262d76;
+    background-color: #262d76;
+  }
 
 .btn {
   border-radius: 300px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Vazir';
   letter-spacing: 2px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .btn-xl {
-  font-size: 11px;
-  padding: 15px 45px; }
+  margin: 5px 5px;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.more-btn {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
 
 select.frecuency {
   border: none;
@@ -305,9 +317,10 @@ button.btn {
 }
 
 
+/*Subscription*/
 
 #mlb2-7090650 .subscribe-form {
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 20px;
   border: 1px solid rgba(117, 58, 9, 0.24) !important;
   border-radius: 10px !important;
@@ -404,6 +417,7 @@ button.btn {
 }
 
 
+/*Footer*/
 
 .icon-social-twitter {
   font-family: 'simple-line-icons';
@@ -425,4 +439,47 @@ button.btn {
 .item-icon {
   width: auto;
   height: 50px;
+}
+
+
+/*About*/
+
+.about{
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(../img/bg-masthead.jpg);
+  background-position: center center;
+  background-repeat: repeat;
+  /*background-size: cover;*/
+}
+
+.postcontent {
+  margin: 20px 10px;
+}
+
+.postcontent *{
+  direction: rtl;
+  text-align: right;
+}
+
+.back-button {
+  color: white;
+  display: inherit;
+  position: fixed;
+  width:100%;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.back-button a {
+  padding: 3px;
+  position: inherit;
+  left: 0;
+  margin-left: 20px;
+  border:1px rgba(84, 42, 6, 0.48);
+  border-radius: 3px;
+  background: rgba(96, 5, 8, 0.38);
 }
