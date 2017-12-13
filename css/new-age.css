@@ -59,7 +59,8 @@ h1,
 h2,
 h3,
 h4,
-h6 {
+h6,
+h5 {
   font-weight: 200;
   letter-spacing: 1px;
   font-family: "Vazir-Bold", 'Tahoma';
@@ -186,11 +187,11 @@ section.contact h2 i {
 section.contact ul.list-social {
   margin-bottom: 0; }
 section.contact ul.list-social li a {
-  font-size: 40px;
-  line-height: 80px;
+  font-size: 30px;
+  line-height: 50px;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   color: white;
   border-radius: 100%; }
 section.contact ul.list-social li.social-twitter a {
@@ -445,7 +446,7 @@ button.btn {
 }
 .item-icon {
   width: auto;
-  height: 50px;
+  height: 30px;
 }
 
 
@@ -486,4 +487,119 @@ button.btn {
   border:1px rgba(84, 42, 6, 0.48);
   border-radius: 3px;
   background: rgba(96, 5, 8, 0.38);
+}
+
+
+/*Payment*/
+.pay-button-form{
+  text-align: right;
+  margin-top: 40px;
+}
+.payment-result-box{
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 40px auto;
+}
+.failed-text{
+  color: #ff200d;
+}
+.success-text{
+  color: #14a30f;
+}
+.info-text{
+  color: #9409a3;
+}
+.pay-button {
+  position: relative;
+  background-color: #4CAF50;
+  border: 0px solid #4CAF50;
+  border-radius: 8px;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: auto;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 5px 25px 0 rgba(0,0,0,0.19);
+}
+.pay-button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+.pay-button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+button:focus {
+  outline:0;
+}
+.pay-button:active{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pay-box {
+  margin: 0 50px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding: 30px 50px;
+  top: 50%;
+  position: relative;
+  direction: rtl;
+  text-align: right;
+  background: white;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+.pay-body{
+  background-image: url("https://cdn.zarinpal.com/theme/payment_gateway/images/pixel.png");
+  background-size: 4.25rem
+}
+
+.continue-pay {
+  border-radius: 4px;
+  background-color: #325ff4;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.continue-pay span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.continue-pay span:before {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -0px;
+  transition: 0.5s;
+}
+.continue-pay:hover span {
+  padding-left: 25px;
+}
+.continue-pay:hover span:before {
+  opacity: 1;
+  left: 0;
 }
