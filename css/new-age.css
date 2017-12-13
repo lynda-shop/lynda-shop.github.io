@@ -10,7 +10,6 @@
   src: url("../fonts/Vazir.woff");
   src: url('../fonts/Vazir.ttf') format('opentype');
 }
-
 @font-face{
   font-family: "Vazir-Bold";
   src: local('Vazir-Bold');
@@ -26,7 +25,6 @@ body {
   height: 100%;
   direction: rtl;
 }
-
 body {
   font-family: "Vazir", 'Tahoma';
 }
@@ -41,13 +39,11 @@ a {
 a:hover, a:focus {
   color: #8f4a05;
 }
-
 hr {
   max-width: 100px;
   margin: 25px auto 0;
   border-width: 1px;
   border-color: rgba(34, 34, 34, 0.1); }
-
 hr.light {
   border-color: white; }
 
@@ -68,13 +64,11 @@ h6 {
   letter-spacing: 1px;
   font-family: "Vazir-Bold", 'Tahoma';
 }
-
 p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
-
 section {
   padding: 100px 0; }
 section h2 {
@@ -232,14 +226,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539); }
-
 .text-primary {
   color: #fdcc52; }
-
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0; }
-
 .btn-outline {
   color: white;
   border: 1px solid;
@@ -251,20 +242,17 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-color: #262d76;
   background-color: #262d76;
 }
-
 .btn {
   border-radius: 300px;
   font-family: 'Vazir';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-
 .btn-xl {
   margin: 5px 5px;
   font-size: 15px;
   padding: 10px 20px;
 }
-
 .more-btn {
   border-radius: 10px;
   margin-top: 30px;
@@ -320,6 +308,8 @@ button.btn {
   direction: rtl;
 }
 
+
+
 /*Subscription*/
 
 #mlb2-7090650 .subscribe-form {
@@ -333,7 +323,6 @@ button.btn {
   direction: ltr;
   text-align: right;
 }
-
 #mlb2-7090650 .subscribe-form .form-section p,
 #mlb2-7090650 .subscribe-form .form-section li {
   line-height: 150%;
@@ -343,11 +332,9 @@ button.btn {
   font-family: 'Vazir' !important;
   font-size: 14px !important;
 }
-
 #mlb2-7090650 .subscribe-form .form-section a {
   font-size: 14px !important;
 }
-
 #mlb2-7090650.ml-subscribe-form .form-group .form-control {
   width: 100%;
   font-size: 13px;
@@ -365,7 +352,6 @@ button.btn {
   direction: ltr;
   text-align: right;
 }
-
 #mlb2-7090650.ml-subscribe-form button {
   border: none !important;
   cursor: pointer !important;
@@ -381,29 +367,24 @@ button.btn {
   margin: 0 !important;
   position: relative!important;
 }
-
 #mlb2-7090650 .subscribe-form.horizontal {
   padding-bottom: 0px;
 }
-
 #mlb2-7090650 .subscribe-form .form-section.horizontal {
   float: right;
   margin-bottom: 5px;
   width: 70%;
 }
-
 #mlb2-7090650 .subscribe-form .form-section.horizontal .form-group {
   float: right;
   width: 100%;
   padding-left: 10px;
   box-sizing: border-box;
 }
-
 #mlb2-7090650 .subscribe-form .form-section.horizontal.ml-button-position {
   width: 30%;
   padding: 0;
 }
-
 @media (max-width: 768px) {
   #mlb2-7090650.ml-subscribe-form .subscribe-form .form-section.horizontal {
     float: none;
@@ -420,6 +401,7 @@ button.btn {
 }
 
 
+
 /*Footer*/
 
 .icon-social-twitter {
@@ -434,15 +416,14 @@ button.btn {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-social-twitter:before {
   content: "\e009";
 }
-
 .item-icon {
   width: auto;
   height: 50px;
 }
+
 
 
 /*About*/
@@ -458,16 +439,13 @@ button.btn {
   background-repeat: repeat;
   /*background-size: cover;*/
 }
-
 .postcontent {
   margin: 20px 10px;
 }
-
 .postcontent *{
   direction: rtl;
   text-align: right;
 }
-
 .back-button {
   color: white;
   display: inherit;
@@ -476,7 +454,6 @@ button.btn {
   margin-top: 5px;
   text-align: left;
 }
-
 .back-button a {
   padding: 3px;
   position: inherit;
