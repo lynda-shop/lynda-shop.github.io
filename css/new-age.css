@@ -479,6 +479,14 @@ button.btn {
   margin-top: 5px;
   text-align: left;
 }
+.back-button {
+  color: white;
+  display: inherit;
+  position: fixed;
+  width:100%;
+  margin-top: 5px;
+  text-align: left;
+}
 .back-button a {
   padding: 3px;
   position: inherit;
@@ -488,7 +496,22 @@ button.btn {
   border-radius: 3px;
   background: rgba(96, 5, 8, 0.38);
 }
-
+.back-button-in-pay {
+  color: white;
+  display: inherit;
+  position: absolute;
+  width:100%;
+  margin-top: 5px;
+  text-align: left;
+}
+.back-button-in-pay a {
+  padding: 3px;
+  position: relative;
+  left: 7%;
+  border:1px rgba(84, 42, 6, 0.48);
+  border-radius: 3px;
+  background: rgba(96, 5, 8, 0.38);
+}
 
 /*Payment*/
 .pay-button-form{
@@ -502,6 +525,7 @@ button.btn {
   padding: 20px;
   margin: 40px auto;
 }
+
 .failed-text{
   color: #ff200d;
 }
@@ -511,9 +535,9 @@ button.btn {
 .info-text{
   color: #9409a3;
 }
+
 .pay-button {
   position: relative;
-  background-color: #4CAF50;
   border: 0px solid #4CAF50;
   border-radius: 8px;
   font-size: 28px;
@@ -530,7 +554,7 @@ button.btn {
 }
 .pay-button:after {
   content: "";
-  background: #90EE90;
+  background: rgba(255, 255, 255, 0.5);
   display: block;
   position: absolute;
   padding-top: 300%;
@@ -570,7 +594,7 @@ button:focus {
   background-size: 4.25rem
 }
 
-.continue-pay {
+.continue {
   border-radius: 4px;
   background-color: #325ff4;
   border: none;
@@ -582,13 +606,13 @@ button:focus {
   cursor: pointer;
   margin: 5px;
 }
-.continue-pay span {
+.continue span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-.continue-pay span:before {
+.continue span:before {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -596,10 +620,60 @@ button:focus {
   left: -0px;
   transition: 0.5s;
 }
-.continue-pay:hover span {
+.continue:hover span, .continue:active span, .continue:focus span {
   padding-left: 25px;
 }
-.continue-pay:hover span:before {
+.continue:hover span:before, .continue:active span:before, .continue:focus span:before {
   opacity: 1;
   left: 0;
+}
+
+.pay{
+  width: 100%;
+  background-color: #fa0d37;
+}
+
+.order{
+  width: 100%;
+  background-color: #305ceb;
+}
+
+.inline-button-container{
+  display: inline;
+  border-radius: 5px;
+  text-align: center;
+}
+.inline-button{
+  margin: 3px 0;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+
+/*Plans*/
+.plans-container{
+  /*width: 100%;*/
+  margin: 0 5px;
+}
+.plans-box{
+  text-align: center;
+  border: 0 solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 7px 20px 0 rgba(0,0,0,0.24), 0 0 5px 0 rgba(0,0,0,0.19);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+.plans-box hr{
+  width: 80% !important;
+  max-width: 80% !important;
+  margin-bottom: 25px;
+}
+.plans-box h4{
+  margin-top: 25px;
+  color: #ff0d5a;
+}
+.plans-box h5{
+  margin-bottom: 20px;
 }
