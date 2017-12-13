@@ -367,6 +367,30 @@ button.btn {
   margin: 0 !important;
   position: relative!important;
 }
+#mlb2-7090650.ml-subscribe-form button.gradient-on {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+#mlb2-7090650.ml-subscribe-form button.gradient-on:hover {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+#mlb2-7090650.ml-subscribe-form button[disabled] {
+  cursor: not-allowed!important;
+}
+#mlb2-7090650.ml-subscribe-form .form-section.ml-error label {
+  color: red!important;
+}
+#mlb2-7090650.ml-subscribe-form .form-group.ml-error label {
+  color: red!important;
+}
+#mlb2-7090650.ml-subscribe-form .form-group.ml-error .form-control {
+  border-color: red!important;
+}
 #mlb2-7090650 .subscribe-form.horizontal {
   padding-bottom: 0px;
 }
