@@ -305,8 +305,9 @@ button.btn {
   color: #999;
 }
 
-.my-auto {
+.my-auto, mt-auto {
   direction: rtl;
+  margin-top: 20vh !important;
 }
 
 
@@ -658,4 +659,8 @@ button:focus {
 }
 .plans-box h5{
   margin-bottom: 20px;
+}
+
+.full {
+ display: inherit;
 }
