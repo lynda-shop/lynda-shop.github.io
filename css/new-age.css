@@ -307,7 +307,7 @@ button.btn {
 
 .my-auto, mt-auto {
   direction: rtl;
-  margin-top: 17vh !important;
+  /*margin-top: 17vh !important;*/
 }
 
 
